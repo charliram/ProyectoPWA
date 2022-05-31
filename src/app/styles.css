@@ -1,0 +1,14 @@
+body{
+    /*background-image: linear-gradient(to bottom, #f28432, #f59827, #f6ac1a, #f2c110, #ebd612);*/
+    background-image: url(./assets/img/hola3-01.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    
+
+}
+h2{
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,18 @@
+h2{
+   
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    
+}
+#fondo{
+    background-color: rgb(238, 238, 238,.5);
+    padding: 10px;
+    
+}
+p{
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}

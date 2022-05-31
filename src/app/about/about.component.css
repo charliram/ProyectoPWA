@@ -1,0 +1,26 @@
+img{
+    display: block;
+
+    margin: 0 auto;
+}
+#fondo{
+    background-color: rgb(238, 238, 238,.5);
+    padding: 15px;
+    
+}
+p,li{
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Koulen', cursive;
+    text-align: center;
+}
+h2{
+   
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    
+}

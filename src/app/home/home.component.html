@@ -1,0 +1,61 @@
+<div id="papa">
+  <div class="jumbotron mt-5">
+    <h1 class="display-4" id="demotext">Bienvenido al mejor sitio de Comics</h1>
+    <p class="lead">Esta pagina es manejada por REBOOT, tu tienda de confianza.Encontraras Informacion relacionada a los comics ademas de los productos que te ofrecemos en nuestra tienda. </p>
+    <hr class="my-4">
+    <p>No te pierdas de las noticias mas recientes de los comics, registrate en nuestro portal y recibe la informacion mas fresca a tu correo</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"  class="btn btn-primary btn-lg">Registrarse</button>
+    <!--a class="btn btn-primary btn-lg" href="#" role="button">Registrate</a-->
+  </div>
+  <div class=" modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registro de Usuario</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">NOMBRE</span>
+            </div>
+            <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1" [(ngModel)]="suscriptor.nombre" >
+            
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">SEXO</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01" [(ngModel)]="suscriptor.sexo">
+              
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+            </select>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon2">CORREO</span>
+            </div>
+            <input type="email" class="form-control"  aria-label="Username" aria-describedby="basic-addon2" [(ngModel)]="suscriptor.correo">
+            
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon3">FECHA NACIMIENTO</span>
+            </div>
+            <input type="date" class="form-control"  aria-label="Username" aria-describedby="basic-addon3" [(ngModel)]="suscriptor.fecha">
+            
+          </div>
+        </div>
+        <div class="modal-footer">
+          
+          <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="registro_user()">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

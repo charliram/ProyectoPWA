@@ -1,0 +1,25 @@
+<div class="container">
+    <h2 class="mt-4"><u>SUSCRIPTORES ACTIVOS</u></h2>
+    <table class="table mt-4 ">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">N o m b r e</th>
+            <th scope="col">S e x o</th>
+            <th scope="col">C o r r e o</th>
+            <th scope="col">F e c h a __ d e __ N a c i m i e n t o</th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr *ngFor="let i of suscriptores">
+            <td scope="row">{{i.nombre}}</td>
+            <td>{{i.sexo}}</td>
+            <td>{{i.correo}}</td>
+            <td>{{i.fecha}}</td>
+          </tr>
+          
+          
+        </tbody>
+      </table>
+      
+      
+</div>

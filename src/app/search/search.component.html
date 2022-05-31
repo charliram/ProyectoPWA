@@ -1,0 +1,13 @@
+<div class="row animated fadeIn fast" *ngIf="indice==-1">
+    <div class="co-md-12 mx-auto mt-4">
+        
+        <div class="alert alert-info text-center" role="alert">
+            <h3>UPPS! </h3>
+            <img src="../../assets/img/ups.png" alt="" >
+        <h4>Parece que no tenemos registro de {{nombreh}} en nuestro sistema</h4>
+           Descuida..Pronto lo agregaremos
+        </div>
+    </div>
+    {{sleep()}}
+</div>
+<app-unheroe *ngIf="indice != -1" [heroe] = "miheroe"></app-unheroe>
